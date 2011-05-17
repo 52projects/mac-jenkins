@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9641008C1381F9C000687287 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9641008B1381F9C000687287 /* Cocoa.framework */; };
+		9641008E1381F9C000687287 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9641008D1381F9C000687287 /* MacRuby.framework */; };
+		964100951381F9C000687287 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 964100931381F9C000687287 /* InfoPlist.strings */; };
+		964100981381F9C000687287 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 964100971381F9C000687287 /* main.m */; };
+		9641009C1381F9C000687287 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9641009A1381F9C000687287 /* MainMenu.xib */; };
+		9641009F1381F9C000687287 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 9641009E1381F9C000687287 /* rb_main.rb */; };
+		964100A11381F9C000687287 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 964100A01381F9C000687287 /* AppDelegate.rb */; };
+		964100A41381F9C000687287 /* mac_jenkins.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 964100A21381F9C000687287 /* mac_jenkins.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		964100871381F9C000687287 /* mac-jenkins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mac-jenkins.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9641008B1381F9C000687287 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9641008D1381F9C000687287 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		964100921381F9C000687287 /* mac-jenkins-Info.plist */ = {isa = PBXFileReference; path = "mac-jenkins-Info.plist"; sourceTree = "<group>"; };
+		964100941381F9C000687287 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		964100961381F9C000687287 /* mac-jenkins-Prefix.pch */ = {isa = PBXFileReference; path = "mac-jenkins-Prefix.pch"; sourceTree = "<group>"; };
+		964100971381F9C000687287 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9641009B1381F9C000687287 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9641009E1381F9C000687287 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		964100A01381F9C000687287 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		964100A31381F9C000687287 /* mac_jenkins.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mac_jenkins.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		964100841381F9C000687287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9641008C1381F9C000687287 /* Cocoa.framework in Frameworks */,
+				9641008E1381F9C000687287 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9641007C1381F9C000687287 = {
+			isa = PBXGroup;
+			children = (
+				964100901381F9C000687287 /* mac-jenkins */,
+				9641008A1381F9C000687287 /* Frameworks */,
+				964100881381F9C000687287 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		964100881381F9C000687287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				964100871381F9C000687287 /* mac-jenkins.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9641008A1381F9C000687287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9641008B1381F9C000687287 /* Cocoa.framework */,
+				9641008D1381F9C000687287 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		964100901381F9C000687287 /* mac-jenkins */ = {
+			isa = PBXGroup;
+			children = (
+				964100A01381F9C000687287 /* AppDelegate.rb */,
+				964100A21381F9C000687287 /* mac_jenkins.xcdatamodeld */,
+				964100991381F9C000687287 /* Resources */,
+				9641009D1381F9C000687287 /* Other Sources */,
+				964100911381F9C000687287 /* Supporting Files */,
+			);
+			path = "mac-jenkins";
+			sourceTree = "<group>";
+		};
+		964100911381F9C000687287 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				964100921381F9C000687287 /* mac-jenkins-Info.plist */,
+				964100931381F9C000687287 /* InfoPlist.strings */,
+				964100961381F9C000687287 /* mac-jenkins-Prefix.pch */,
+				964100971381F9C000687287 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		964100991381F9C000687287 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9641009A1381F9C000687287 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9641009D1381F9C000687287 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9641009E1381F9C000687287 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		9641008F1381F9C000687287 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 964100AA1381F9C000687287 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		964100861381F9C000687287 /* mac-jenkins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964100A71381F9C000687287 /* Build configuration list for PBXNativeTarget "mac-jenkins" */;
+			buildPhases = (
+				964100831381F9C000687287 /* Sources */,
+				964100841381F9C000687287 /* Frameworks */,
+				964100851381F9C000687287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mac-jenkins";
+			productName = "mac-jenkins";
+			productReference = 964100871381F9C000687287 /* mac-jenkins.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9641007E1381F9C000687287 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 964100811381F9C000687287 /* Build configuration list for PBXProject "mac-jenkins" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9641007C1381F9C000687287;
+			productRefGroup = 964100881381F9C000687287 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				964100861381F9C000687287 /* mac-jenkins */,
+				9641008F1381F9C000687287 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		964100851381F9C000687287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964100951381F9C000687287 /* InfoPlist.strings in Resources */,
+				9641009C1381F9C000687287 /* MainMenu.xib in Resources */,
+				9641009F1381F9C000687287 /* rb_main.rb in Resources */,
+				964100A11381F9C000687287 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		964100831381F9C000687287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964100981381F9C000687287 /* main.m in Sources */,
+				964100A41381F9C000687287 /* mac_jenkins.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		964100931381F9C000687287 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				964100941381F9C000687287 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9641009A1381F9C000687287 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9641009B1381F9C000687287 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		964100A51381F9C000687287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		964100A61381F9C000687287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		964100A81381F9C000687287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mac-jenkins/mac-jenkins-Prefix.pch";
+				INFOPLIST_FILE = "mac-jenkins/mac-jenkins-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		964100A91381F9C000687287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mac-jenkins/mac-jenkins-Prefix.pch";
+				INFOPLIST_FILE = "mac-jenkins/mac-jenkins-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		964100AB1381F9C000687287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		964100AC1381F9C000687287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		964100811381F9C000687287 /* Build configuration list for PBXProject "mac-jenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964100A51381F9C000687287 /* Debug */,
+				964100A61381F9C000687287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		964100A71381F9C000687287 /* Build configuration list for PBXNativeTarget "mac-jenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964100A81381F9C000687287 /* Debug */,
+				964100A91381F9C000687287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		964100AA1381F9C000687287 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964100AB1381F9C000687287 /* Debug */,
+				964100AC1381F9C000687287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		964100A21381F9C000687287 /* mac_jenkins.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				964100A31381F9C000687287 /* mac_jenkins.xcdatamodel */,
+			);
+			currentVersion = 964100A31381F9C000687287 /* mac_jenkins.xcdatamodel */;
+			path = mac_jenkins.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9641007E1381F9C000687287 /* Project object */;
+}

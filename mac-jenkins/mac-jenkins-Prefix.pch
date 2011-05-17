@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'mac-jenkins' target in the 'mac-jenkins' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
