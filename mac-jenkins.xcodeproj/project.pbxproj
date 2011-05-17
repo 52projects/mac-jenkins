@@ -21,9 +21,9 @@
 		964100871381F9C000687287 /* mac-jenkins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mac-jenkins.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9641008B1381F9C000687287 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		9641008D1381F9C000687287 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
-		964100921381F9C000687287 /* mac-jenkins-Info.plist */ = {isa = PBXFileReference; path = "mac-jenkins-Info.plist"; sourceTree = "<group>"; };
+		964100921381F9C000687287 /* mac-jenkins-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mac-jenkins-Info.plist"; sourceTree = "<group>"; };
 		964100941381F9C000687287 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		964100961381F9C000687287 /* mac-jenkins-Prefix.pch */ = {isa = PBXFileReference; path = "mac-jenkins-Prefix.pch"; sourceTree = "<group>"; };
+		964100961381F9C000687287 /* mac-jenkins-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mac-jenkins-Prefix.pch"; sourceTree = "<group>"; };
 		964100971381F9C000687287 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9641009B1381F9C000687287 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		9641009E1381F9C000687287 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
